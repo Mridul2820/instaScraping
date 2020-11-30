@@ -1,14 +1,15 @@
 {
-  "name": "pageScraping",
+  "name": "pagescraping",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mridul2820",
   "license": "ISC",
+  "homepage": "https://mridul2820.github.io/instaScraping/.",
   "dependencies": {
     "puppeteer": "^5.5.0"
   }
