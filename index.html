@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Images, Reels & Videos From Instagram</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"/>
+</head>
+<body>
+    
+    <h1 class="head">Download From Instagram</h1>
+
+    <section class="tabs">
+        <div class="container">
+            <div id="tab-1" class="tab-item tab-border">
+                Image  
+                <i class="far fa-image"></i>
+            </div>
+    
+            <div id="tab-2" class="tab-item">
+                Reels  
+                <i class="fas fa-film"></i>
+            </div>
+    
+            <div id="tab-3" class="tab-item">
+                Video  
+                <i class="fas fa-play"></i>
+            </div>
+    
+            <div id="tab-4" class="tab-item">
+                IGTV  
+                <i class="far fa-play-circle"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="tab-content">
+        <div class="container">
+            <!-- Image -->
+            <div id="tab-1-content" class="tab-content-item show">
+                <form id="form-img">
+                    <input type="text" id="search-img" placeholder="Enter Image Post Link">
+                    <button>Download Image</button>
+                </form>
+            </div>
+
+            <!-- Reels -->
+            <div id="tab-2-content" class="tab-content-item">
+                <form id="form-reel">
+                    <input type="text" id="search-reel" placeholder="Enter Reel Post Link">
+                    <button>Download Reel</button>
+                </form>
+            </div>
+
+            <!-- Video -->
+            <div id="tab-3-content" class="tab-content-item">
+                <form id="form-video">
+                    <input type="text" id="search-video" placeholder="Enter Video Post Link">
+                    <button>Download Video</button>
+                </form>
+            </div>
+
+            <!-- IGTV -->
+            <div id="tab-4-content" class="tab-content-item">
+                <form id="form-igtv">
+                    <input type="text" id="search-igtv" placeholder="Enter IGTV Post Link">
+                    <button>Download IGTV</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="scrapers.js"></script>
+</body>
+</html>
